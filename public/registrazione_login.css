@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    background-color: rgb(46, 107, 230);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+div {
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    max-width: 400px;
+    font-size: small;
+    font-family: 'Open Sans';
+    display: flex;
+    text-align: center;
+    border: 3px solid rgb(101, 109, 128);
+    flex-direction: column; 
+}
+
+p {
+    margin: 0.3em;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+input {
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+div form h1 {
+    font-size: medium;
+    color: rgb(46, 107, 230);
+    margin: 5% 0% 5% 0%;
+}
+
+div form #Tasto_submit {
+    background-color: rgb(46, 107, 230);
+    color: white;
+    height: 25px;
+    margin: 5% 5% 0% 0%;
+}
+
+div form #utente_già_loggato {
+    display: inline-block;
+    text-decoration-line: none;
+    background-color: #FF6600;
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid rgb(73, 79, 92);
+    color: white;
+    height: 25px;
+}
+
+#link_registrazione{
+    color: white;
+    text-decoration-line: none;
+}
+
+.ErrorContainer {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.Error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: -5px;
+    display: block;
+}
+
+.Errore {
+    color: red;
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+}
+
+@media(max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+}

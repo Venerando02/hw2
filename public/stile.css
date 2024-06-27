@@ -1,0 +1,545 @@
+body {
+    font-family: 'Open Sans';
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search {
+    width: 80%;
+}
+
+#overlay {
+    background-color: rgb(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header nav {
+    position: absolute;
+    margin: 20px 20px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header {
+    font-family: 'Open Sans';
+    background-image: url('immagini/fantacalcio.jpg');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5% 0% 0% 0%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    z-index: 1;
+    margin: 10px 0px 0px 40px;
+}
+
+#sezione-calciatore {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 92, 224);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+body #navbar {
+    width: 100%;
+}
+
+body div h1 {
+    background-color: rgb(46, 107, 230);
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: larger;
+}
+
+#logo {
+    color: rgba(0, 0, 0, 0);
+    font-family: 'Open Sans';
+    font-weight: bold;
+    display: flex;
+}
+
+#logo img {
+    width: 250px;
+    padding: 10px;
+    margin: 0px;
+}
+
+#Menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#Menu a {
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(46, 107, 230);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h3 {
+    z-index: 1;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0px 0px 0px 40px;
+}
+
+section {
+    height: 200px;
+    background-color: rgb(27, 92, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ricerca {
+    text-align: center;
+}
+
+#submit {
+    display: none;
+}
+
+#calciatore {
+    width: 300px;
+    height: 10px;
+    padding: 16px 14px;
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 30px;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#ricerca-giocatore {
+    font-weight: bold;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+footer {
+    width: 100%;
+    display: block;
+    background-color: rgb(27, 92, 224);
+}
+
+#flex-container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#blocco-immagine {
+    background-color: rgb(27, 92, 224);
+    height: 180px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#search #Spotify-API h1 {
+    background-color: rgb(27, 92, 224);
+}
+
+#sezione-album {
+    background-color: rgb(27, 92, 224);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.album {
+    width: calc(30% - 30px);
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.album img {
+    max-width: 80%;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.album h2 {
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+.album p {
+    margin: 3px 0;
+    font-size: 0.8em;
+    color: black;
+}
+
+#blocco-immagine img {
+    width: 100%;
+    font-size: 17px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.desc {
+    margin: 0px 10px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background-color: rgb(0, 0, 0, 0);
+    display: block;
+    text-align: center;
+}
+
+.desc #immagine-finale img {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+#immagine-finale a img {
+    background-color: rgb(0, 0, 0, 0);
+}
+
+.desc li {
+    margin: 10px 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#subfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    color: white;
+    background-color: rgb(26, 71, 161);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.scheda-tecnica {
+    width: calc(25% - 20px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 1.2em;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.container input:checked~.checkmark {
+    background-color: #2195f3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.scheda-tecnica .immagine {
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #dee2e6;
+}
+
+
+.scheda-tecnica h2 {
+    font-size: 1.5em;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.scheda-tecnica .club {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.scheda-tecnica .club img {
+    margin-right: 10px;
+}
+
+.scheda-tecnica .club span {
+    font-size: 1.2em;
+    color: #495057;
+}
+
+.scheda-tecnica .dettagli {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#sezione-calciatore .scheda-tecnica .dettagli p {
+    font-size: 1em;
+    color: #495057;
+    margin: 0px 0px 10px 0px;
+}
+
+.scheda-tecnica .dettagli p strong {
+    color: #343a40;
+}
+
+.scheda-tecnica .dettagli p:nth-child(odd) {
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+.scheda-tecnica .dettagli img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.comment-react {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 5px;
+    scale: 1.5;
+    width: 100px;
+}
+
+.album .Error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.comment-react button {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+}
+
+.comment-react button:after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    background-color: #f5356e;
+    border-radius: 50%;
+    z-index: 0;
+    transform: scale(0);
+}
+
+.comment-react button svg {
+    position: relative;
+    z-index: 9;
+}
+
+.comment-react button:hover:after {
+    animation: ripple 0.6s ease-in-out forwards;
+}
+
+.comment-react button:hover svg {
+    fill: #f5356e;
+}
+
+.comment-react button:hover svg path {
+    stroke: #f5356e;
+    fill: #f5356e;
+}
+
+.comment-react button.liked svg,
+.comment-react button.liked svg path {
+    stroke: #f5356e;
+    fill: #f5356e;
+}
+
+
+.comment-react hr {
+    width: 80%;
+    height: 1px;
+    background-color: #dfe1e6;
+    margin: auto;
+    border: 0;
+}
+
+.comment-react span {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #707277;
+    padding-right: 10px;
+    text-align: center;
+}
+
+@keyframes ripple {
+    0% {
+        transform: scale(0);
+        opacity: 0.6;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+
+@media(max-width: 1150px) {
+    .desc li {
+        margin: 10px 0px;
+        padding: 0px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 950px) {
+
+    #sezione-album {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #search header nav {
+        font-size: medium;
+        justify-content: space-around;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    footer {
+        font-size: smaller;
+    }
+
+    #subfooter {
+        font-size: smaller;
+    }
+
+    #flex-container-footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    #sezione-calciatore {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

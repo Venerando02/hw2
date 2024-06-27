@@ -1,0 +1,534 @@
+body {
+    font-family: 'Open Sans';
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search {
+    width: 80%;
+    height: 100%;
+}
+
+header nav {
+    position: absolute;
+    margin: 20px 20px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header {
+    font-family: 'Open Sans';
+    background-image: url('immagini/fantacalcioim1.webp');
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 0% 0% 0%;
+    height: 55vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    z-index: 1;
+}
+
+body #navbar {
+    width: 100%;
+}
+
+body #navbar h1 {
+    background-color: rgb(46, 107, 230);
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: larger;
+}
+
+#logo {
+    color: rgba(0, 0, 0, 0);
+    font-family: 'Open Sans';
+    font-weight: bold;
+    display: flex;
+}
+
+
+#logo img {
+    width: 250px;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+#Menu a {
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(46, 107, 230);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.titolo {
+    color: #89acf1;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    background-color: #f7f7f7;
+    border-bottom: 3px dashed #89acf1;
+    padding: 10px 0;
+}
+
+.dati {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px;
+}
+
+.item, .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.item label, .options label, #modifica-password label {
+    width: 200px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #666;
+    font-size: 15px;
+}
+
+.item input, .options input, #modifica-password input {
+    flex: 1;
+    height: 20px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+#modifica-password .dati .options .bottone {
+    padding: 5px 10px;
+    background-color: rgb(46, 107, 230);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+#modifica-password .dati {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+#modifica-password .options {
+    
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#modifica-password .dati .options .bottone {
+    width: auto;
+    padding: 5px 10px;
+    height: 100%;
+}
+
+#modifica-password .dati .submit-container{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#modifica-password .dati .submit-container #submit-password {
+    background-color: rgb(46, 107, 230);
+    color: white;
+    cursor: pointer; 
+    height: auto;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+footer {
+    width: 100%;
+    display: block;
+    background-color: rgb(27, 92, 224);
+}
+
+#flex-container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#blocco-immagine {
+    background-color: rgb(27, 92, 224);
+    height: 180px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#blocco-immagine img {
+    width: 100%;
+    font-size: 17px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.desc {
+    padding: 0px 15px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    background-color: rgb(0, 0, 0, 0);
+    text-align: left;
+}
+
+.desc h2 {
+    font-size: medium;
+    text-align: center;
+}
+
+.desc #immagine-finale img {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.desc li {
+    margin: 10px 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+#immagine-finale a img {
+    background-color: rgb(0, 0, 0, 0);
+}
+
+#articoli-letti {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#Calciatori-preferiti {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#sezione-album{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#subfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    color: white;
+    background-color: rgb(26, 71, 161);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Error {
+    color: red;
+    font-size: 0.9em;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 75px;
+}
+
+.stile_div_notizia {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 130px);
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: calc(25% - 20px);
+}
+
+.stile_div_notizia:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.stile_immagine {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.stile_titolo {
+    font-size: 1em;
+    margin: 20px 0;
+    color: #333;
+}
+
+.stile_div_scrittura {
+    text-align: center;
+}
+
+.scheda-tecnica {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33% - 20px);
+}
+
+.scheda-tecnica:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.scheda-tecnica .immagine {
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #dee2e6;
+}
+
+
+.scheda-tecnica h2 {
+    font-size: 1.5em;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.scheda-tecnica .club {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.scheda-tecnica .club img {
+    margin-right: 10px;
+}
+
+.scheda-tecnica .club span {
+    font-size: 1.2em;
+    color: #495057;
+}
+
+.stile_h3 {
+    background-color: #89acf1;
+    color: #eee;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-style: inherit;
+    border-radius: 5px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #e62222;
+}
+
+button,
+button span {
+    transition: 200ms;
+}
+
+button .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+}
+
+button .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button svg {
+    width: 15px;
+    fill: #eee;
+}
+
+button:hover {
+    background: #ff3636;
+}
+
+button:hover .text {
+    color: transparent;
+}
+
+button:hover .icon {
+    width: 150px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active .icon svg {
+    transform: scale(0.8);
+}
+
+
+@media(max-width: 1150px) {
+
+    #subfooter {
+        font-size: smaller;
+    }
+
+
+    .desc li {
+        margin: 10px 0px;
+        padding: 0px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 950px) {
+
+
+    #modifica-password .dati .submit-container
+    {
+        height: 100px;
+    }
+    
+    #modifica-password .dati .submit-container #submit-password{
+        height: 100%;
+        width: 70%;
+        font-size: larger;
+    }
+    
+
+    .Error{
+        margin-left: 0%;
+        margin-top: 65px;
+    }
+
+    #info-utente .dati .item label {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .item{
+        flex-direction: column;
+    }
+
+    .options{
+        flex-direction: column;
+    }
+
+    #modifica-password .dati .options input {
+        width: 70%;
+    }
+
+    #modifica-password .dati .options button
+    {
+        font-size: larger;
+        display: inline;
+        margin-top: 20px;
+    }
+
+    #info-utente .dati .item input
+    {
+        width: 70%;
+    }
+
+    .titolo {
+        text-align: center;
+    }
+
+    .dati {
+        flex-direction: column;
+    }
+
+    #search header nav {
+        font-size: medium;
+        justify-content: space-around;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #subfooter {
+        font-size: smaller;
+    }
+
+    #flex-container-footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+}
